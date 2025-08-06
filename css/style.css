@@ -200,7 +200,6 @@ ul {
     width: 80%;
     margin: 40px auto;
     padding: 40px 0px;
-    /* margin: auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,12 +209,10 @@ ul {
     text-align: center;
     color: #000;
     font-size: 28px;
-    /* margin-bottom: 2px; */
 }
 
 .rate p {
     font-size: 14px;
-    /* color: gray; */
     color: #818181;
 
 }
@@ -437,7 +434,6 @@ ul {
 .fa-star {
     color: gold;
     margin: 0px 5px;
-    /* border: solid 2px #000; */
 }
 
 .fa-clock {
@@ -581,8 +577,6 @@ ul {
     width: 100%;
 }
 
-.orderContent {}
-
 .orderContent h3 {
     font-size: 43px;
     margin-bottom: 20px;
@@ -590,7 +584,6 @@ ul {
 
 .orderContent p {
     font-size: 14px;
-    /* color: #818181; */
     width: 53%;
     padding: 0px 1px;
     margin-bottom: 20px;
@@ -607,24 +600,24 @@ ul {
 }
 .getApp{
     background-color: #fdf6e4;
-    /* padding: 50px 0 0 0; */
-    /* transform: translateY(-40%); */
-    margin: 250px 0 0 0;
+    transform: translateY(30%);
 
 }
 
 .mobile {
-    margin: 0 auto 50px;
+    margin: 0 auto 50px auto;
     text-align: center;
     width: 45%;
+    transform: translateY(-25px);
     
 }
 
 .mobile h3 {
     font-size: 50px;
-    width: 50%;
-    margin: auto;
+    width: 55%;
+    margin:0 auto;
     margin-bottom: 30px;
+    background-color: tomato;
 
 }
 .mobile h3 .mobileApp{
@@ -632,7 +625,6 @@ ul {
     border: 2px solid #000;
     padding: 2px 5px;
     border-radius: 30px;
-    /* margin-top: 30px !important; */
     display: inline-block;
 }
 .Icons a{
